@@ -1,4 +1,4 @@
-html { background: black url(background.jpg) center center no-repeat; background-size: cover; color: white; }
+html { background: black url("background.jpg") center center no-repeat; background-size: cover; color: white; }
 
 body { display: block; place-items: center; margin: 0; font-family: Inter, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5em; }
 @media (min-width: 500px) { body { display: grid; } }
