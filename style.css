@@ -1,26 +1,2 @@
-html { background: black url(background.jpg) center center no-repeat; background-size: cover; color: white; }
-
-body { display: block; place-items: center; margin: 0; font-family: Inter, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5em; }
-@media (min-width: 500px) { body { display: grid; } }
-
-.Container { background: rgba(79, 109, 245, 0.8); padding: 1rem; font-size: clamp(1rem, 2vw, 2rem); line-height: 1.5em; }
-@media (min-width: 300px) { .Container { margin: 2vh; padding: 2rem; border-radius: 2rem; } }
-@media (min-width: 500px) { .Container { margin: 7vw; padding: 3rem; } }
-    header {  }
-        .Avatar { display: block; width: 112px; height: auto; margin: 0 1em 1em 0; border-radius: 50%; }
-        @media (min-width: 380px) { .Avatar { float: left; } }
-        @media (min-width: 930px) { .Avatar { width: clamp(130px, 14vw, 12rem); } }
-        .TitlulPaginii { display: block; margin: 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1em; }
-        .DescrierePrincipala { display: block; margin: 0.5em 0 1.5em; }
-        @media (min-width: 500px) { .DescrierePrincipala { margin-bottom: 0.5em; } }
-
-	  main { clear: both; }
-		  .ListaLinkuri { display: block; margin: 0; padding: 0; border-top: 1px solid #fff; }
-          .ListaItem { display: block; margin: 0; padding: 0; border-bottom: 1px solid #fff; }
-              .ListaLink { display: block; padding: 0.5em; color: #fff; text-decoration: none; }
-              .ListaLink:hover { background: white; color: black; }
-                  .ListaTitlu, .ListaText { display: block; margin: 0; padding: 0; font-size: 1em; line-height: 1.5em; }
-                  .ListaText { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-      @media (min-width: 1800px) {
-        .ListaLinkuri { display: grid; grid-template-columns: 1fr 1fr; }
-      }
+html{background:black url("background.jpg") center center no-repeat;background-size:cover;color:white}body{display:block;place-items:center;margin:0;font-family:Inter, Helvetica, Arial, sans-serif;font-size:16px;line-height:1.5em}@media (min-width: 500px){body{display:-ms-grid;display:grid}}.Container{background:rgba(79,109,245,0.8);padding:1rem;font-size:clamp(1rem, 2vw, 2rem);line-height:1.5em}@media (min-width: 300px){.Container{margin:2vh;padding:2rem;border-radius:2rem}}@media (min-width: 500px){.Container{margin:7vw;padding:3rem}}.Avatar{display:block;width:112px;height:auto;margin:0 1em 1em 0;border-radius:50%}@media (min-width: 380px){.Avatar{float:left}}@media (min-width: 930px){.Avatar{width:clamp(130px, 14vw, 12rem)}}.TitlulPaginii{display:block;margin:0;font-size:clamp(2rem, 6vw, 4rem);line-height:1em}.DescrierePrincipala{display:block;margin:0.5em 0 1.5em}@media (min-width: 500px){.DescrierePrincipala{margin-bottom:0.5em}}main{clear:both}.ListaLinkuri{display:block;margin:0;padding:0;border-top:1px solid #fff}@media (min-width: 1800px){.ListaLinkuri{display:-ms-grid;display:grid;-ms-grid-columns:1fr 1fr;grid-template-columns:1fr 1fr}}.ListaItem{display:block;margin:0;padding:0;border-bottom:1px solid #fff}.ListaLink{display:block;padding:0.5em;color:#fff;text-decoration:none}.ListaLink:hover{background:white;color:black}.ListaTitlu,.ListaText{display:block;margin:0;padding:0;font-size:1em;line-height:1.5em}.ListaText{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/*# sourceMappingURL=style.css.map */
