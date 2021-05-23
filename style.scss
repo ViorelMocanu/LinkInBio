@@ -56,7 +56,6 @@ strong { font-weight: 900; }
 
 @media (prefers-reduced-motion: reduce) {
 	html:focus-within { scroll-behavior: auto; }
-
 	*, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
 }
 
@@ -81,8 +80,7 @@ strong { font-weight: 900; }
 
 	.Container { background: transparent; margin: 0; padding: 0; }
 
-	h1, h2, h3, h4, h5, h6 { page-break-after: avoid; 
-page-break-inside: avoid }
+	h1, h2, h3, h4, h5, h6 { page-break-after: avoid; page-break-inside: avoid }
 	h1 + h2 { page-break-before: avoid; }
 
 	table, pre, img, svg, blockquote, a { break-inside: avoid; }
