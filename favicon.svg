@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1579.7 1368.2" style="enable-background:new 0 0 1600 1600;" xml:space="preserve">
   <style>
-    path, polygon {
+    path, polygon, .st0 {
       fill: #4F6DF5;
     }
     @media (prefers-color-scheme: dark) {
-      path, polygon {
+      path, polygon, .st0 {
         fill: #4F6DF5;
       }
     }
