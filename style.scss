@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Typeface source: https://rsms.me/inter/ */
-@font-face {
+/*@font-face {
   font-family: 'Inter';
   font-style:  normal;
   font-weight: 400;
@@ -16,9 +16,9 @@
   font-display: swap;
   src: url("Inter-Black.woff2?v=3.18") format("woff2"),
        url("Inter-Black.woff?v=3.18") format("woff");
-}
+}*/
 @font-face {
-	font-family: 'Inter var';
+	font-family: 'Inter';
 	font-weight: 100 900;
 	font-display: swap;
 	font-style: normal;
@@ -27,7 +27,7 @@
 }
 /*
 @font-face {
-	font-family: 'Inter var';
+	font-family: 'Inter';
 	font-weight: 100 900;
 	font-display: swap;
 	font-style: italic;
