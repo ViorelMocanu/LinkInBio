@@ -4,17 +4,17 @@
 	"description": "Toate link-urile mele. Profilurile de social media plus grupurile pe care sunt activ și unde răspund la întrebări.",
 	"icons": [
 		{
-			"src": "/favicon-192.png",
+			"src": "./favicon-192.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "/favicon-512.png",
+			"src": "./favicon-512.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
 	],
-	"start_url": "/index.html",
+	"start_url": "./index.html",
 	"display": "fullscreen",
 	"theme_color": "#B12A34",
 	"background_color": "#B12A34"
