@@ -1,50 +1,83 @@
 <!DOCTYPE html>
-<html lang="ro-RO">
+<html lang="ro-RO" class="no-js"><!-- @TODO schimbată -->
 
 	<head>
+		<!-- setup -->
+		<meta charset="utf-8" /><!-- @TODO mutată -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" /><!-- @TODO mutată -->
+
 		<title>Viorel Mocanu - Link-uri utile</title>
-		<meta charset="utf-8" />
+
+		<!-- SEO -->
 		<meta name="robots" content=", max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="description" content="Toate link-urile mele. Profilurile de social media plus grupurile pe care sunt activ și unde răspund la întrebări." />
+		<link rel="canonical" href="https://viorelmocanu.github.io/LinkInBio/" /><!-- @TODO mutată -->
 		<meta property="og:title" content="Viorel Mocanu - Link-uri utile" />
 		<meta property="og:description" content="Toate link-urile mele. Profilurile de social media plus grupurile pe care sunt activ și unde răspund la întrebări. v2" />
 		<meta property="og:site_name" content="Viorel Mocanu" />
 		<meta property="og:type" content="website" />
 		<meta property="og:locale" content="ro_RO" />
 		<meta property="og:url" content="https://viorelmocanu.github.io/LinkInBio/" />
-		<meta property="og:image" content="og-image.jpg" /> <!-- @TODO -->
+		<meta property="og:image" content="@TODO" />
 		<meta property="og:image:width" content="1200" />
 		<meta property="og:image:height" content="630" />
+		<meta property="og:image:alt" content="@TODO" /><!-- @TODO nouă -->
 		<meta property="article:publisher" content="https://www.facebook.com/ViorelMocanu.ro/" />
 		<meta property="article:section" content="Link In Bio" />
 		<meta property="article:published_time" content="2021-05-09T23:27:55+03:00" />
 		<meta property="article:modified_time" content="2021-05-09T23:27:55+03:00" />
 		<meta name="twitter:site" content="@ViorelMocanu" />
 		<meta name="twitter:creator" content="@ViorelMocanu" />
-		<link rel="stylesheet" href="style.css" />
+		<meta name="twitter:card" content="summary_large_image" /><!-- @TODO nouă -->
 
-		<link rel="icon" type="image/x-icon" href="" />
-		<meta name="theme-color" content="#4F6DF5" />
-		<link rel="apple-touch-icon-precomposed" sizes="192x192" href="" />
-		<meta name="apple-mobile-web-app-title" content="Viorel Mocanu" />
-		<meta name="application-name" content="Viorel Mocanu" />
+		<!-- design -->
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#4f6df5" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<link rel="manifest" href="my.webmanifest" />
+		<meta name="apple-mobile-web-app-title" content="Viorel Mocanu Link-uri" />
+		<meta name="application-name" content="Viorel Mocanu Link-uri" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
 		<meta name="mobile-web-app-capable" content="yes" />
-		<meta name="apple-touch-fullscreen" content="YES" />
-		<link rel="apple-touch-startup-image" href="" />
-		<link rel="apple-touch-icon" sizes="192x192" href="" />
-		<link rel="apple-touch-icon" sizes="512x512" href="" />
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<!--link rel="apple-touch-startup-image" href="@TODO" /-->
+		<meta name="theme-color" content="#ffffff" />
 
-		<link rel="canonical" href="https://viorelmocanu.github.io/LinkInBio/" />
+		<!-- optimize -->
+		<script type="module">
+			document.documentElement.classList.remove('no-js');
+			document.documentElement.classList.add('js');
+		</script><!-- @TODO nou -->
+		<link rel="preload" href="Inter-roman.var.woff2" as="font" type="font/woff2" />
 	</head>
 
-	<body itemscope="" itemtype="https://schema.org/ProfilePage">
-		<div class="Container" itemscope="" itemtype="https://schema.org/Person">
+	<body itemscope itemtype="https://schema.org/ProfilePage">
+		<div class="Container" itemscope itemtype="https://schema.org/Person">
 			<header>
-				<img class="Avatar" src="viorel-mocanu.jpg" width="300" height="300" alt="Imagine de profil pentru Viorel Mocanu" itemprop="image" />
+				<img class="Avatar" src="viorel-mocanu.jpg" width="300" height="300" alt="Imagine de profil pentru Viorel Mocanu" itemprop="image" /><!-- @TODO responsive image with picture element -->
+				<picture class="Avatar">
+					<source type="image/webp" srcset="
+					@TODO 100w,
+					@TODO 200w
+					" sizes="
+					(max-width: 768px) calc(100vw - 3em),
+					(max-width: 1376px) calc(50vw - 8em)
+					" />
+					<img srcset="
+					@TODO 100w,
+					@TODO 200w
+					" sizes="
+					(max-width: 768px) calc(100vw - 3em),
+					(max-width: 1376px) calc(50vw - 8em)
+					" src="@TODO" alt="Imagine de profil pentru Viorel Mocanu" loading="lazy" decoding="async" width="300" height="300" itemprop="image" />
+				</picture>
 				<h1 class="TitlulPaginii">
 					<strong itemprop="name">Viorel Mocanu</strong>
 				</h1>

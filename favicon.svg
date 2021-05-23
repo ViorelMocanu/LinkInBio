@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1579.7 1368.2" style="enable-background:new 0 0 1600 1600;" xml:space="preserve">
+  <style>
+    path, polygon {
+      fill: #4F6DF5;
+    }
+    @media (prefers-color-scheme: dark) {
+      path, polygon {
+        fill: #4F6DF5;
+      }
+    }
+  </style>
+  <polygon class="st0" points="185.5,134.9 10.2,134.9 800.1,1503.1 887.7,1351.3 "/>
+  <polygon class="st0" points="536.5,134.9 361,134.9 975.5,1199.2 1063.2,1047.2 "/>
+  <polygon class="st0" points="1589.7,134.9 1414.2,134.9 1502.1,287.1 1589.8,135.1 "/>
+  <polygon class="st0" points="1238.7,134.9 1063.1,134.9 1326.5,591.2 1414.3,439.1 "/>
+  <polygon class="st0" points="887.6,134.9 712.1,134.9 1151,895.2 1238.8,743.2 "/>
+</svg>
