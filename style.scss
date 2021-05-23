@@ -1,40 +1,14 @@
 @charset "UTF-8";
 
 /* Typeface source: https://rsms.me/inter/ */
-/*@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("Inter-Regular.woff2?v=3.18") format("woff2"),
-       url("Inter-Regular.woff?v=3.18") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("Inter-Black.woff2?v=3.18") format("woff2"),
-       url("Inter-Black.woff?v=3.18") format("woff");
-}*/
 @font-face {
 	font-family: 'Inter';
 	font-weight: 100 900;
 	font-display: swap;
 	font-style: normal;
 	font-named-instance: 'Regular';
-	src: url("Inter-roman.var.woff2?v=3.18") format("woff2");
+	src: url("./Inter-roman.var.woff2?v=3.18") format("woff2");
 }
-/*
-@font-face {
-	font-family: 'Inter';
-	font-weight: 100 900;
-	font-display: swap;
-	font-style: italic;
-	font-named-instance: 'Italic';
-	src: url("Inter-italic.var.woff2?v=3.18") format("woff2");
-}
-*/
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -58,10 +32,11 @@ strong { font-weight: 900; }
 	@media (min-width: 500px) { margin: 7vw; padding: 3rem; }
 }
 	header { display: block; }
-		.Avatar { display: block; width: 112px; height: auto; margin: 0 1em 1em 0; border-radius: 50%;
+		.Avatar { display: block; width: 112px; margin: 0 1em 1em 0;
 			@media (min-width: 380px) { float: left; }
 			@media (min-width: 930px) { width: clamp(130px, 14vw, 12rem); }
 		}
+			.Avatar img { display: block; width: 100%; height: auto; border-radius: 50%; }
 		.TitlulPaginii { display: block; margin: 0; font-size: clamp(2rem, 6vw, 4rem); line-height: 1em; }
 		.SubtitlulPaginii { display: block; margin: 0; font-size: clamp(1rem, 2vw, 2rem); font-weight: 400; line-height: 1em; }
 		.DescrierePrincipala { display: block; margin: 0.5em 0 1.5em;
